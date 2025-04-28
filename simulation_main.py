@@ -9,7 +9,7 @@ cell_dtypes = np.dtype([
     ])
 
 
-# construct the first simulation grid
+# construct the main simulation grid
 grid = np.zeros((20, 20), dtype=cell_dtypes)
 
 print(grid)
