@@ -1,32 +1,37 @@
-import numpy as np
-import matplotlib.pyplot as plt
+#This is where I practice concepts I learn during the building process
 
-# Define data types for the simulation
-
-cell_dtypes = np.dtype([
-    ('type', np.int8), # 0: empty, 1: forest, 2: building, 3: road
-    ('on_fire', np.bool_) # Whether the cell is on fire
-    ])
-
-
-# construct the preliminary simulation grid, test whether changing the dtype works
-grid = np.zeros((5, 5), dtype=cell_dtypes)
-grid[1][1] = (1, False)  # Set a cell to Forest
-grid[2][2] = (1, True)  # Set a cell to Burning Forest
-
-print(grid['on_fire'], '\n')
-
+#Cellular automata
+# Python code to implement Conway's Game Of Life 
+import argparse 
+import numpy as np 
+import matplotlib.pyplot as plt  
+import matplotlib.animation as animation 
+  
 """
-Implementation of basic wildfire CA Logic
+Basic wildfire CA Logic
 1. Each cell is either burning or not burning.
 2. Any cell that is burning will burn its neighbors.
 3. Program stops when all cells are burning
 """
 
+grid = np.array([
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+])
+print(grid, '\n')
+
 #run_sim: grid -> grid
 #calls step(grid) until all cells are burning
 def run_sim(grid):
-    while not np.all(grid['on_fire']): # check if all cells are burning
+    while not np.all(grid == 1): # check if all cells are burning
         grid = step(grid)
         print(grid, '\n')
         
@@ -49,8 +54,8 @@ def step(grid):
                     if k == i and l == j:
                         continue
                     #check if cells neighboring the current cell are burning
-                    elif new_grid[k][l]['on_fire'] == True:
-                        grid[i][j]['on_fire'] = True
+                    elif new_grid[k][l] == 1:
+                        grid[i][j] = 1
                         break
     
     return grid
