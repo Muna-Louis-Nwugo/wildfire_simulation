@@ -10,11 +10,12 @@ cell_dtypes = np.dtype([
 
 
 # construct the preliminary simulation grid, test whether changing the dtype works
-grid = np.zeros((5, 5), dtype=cell_dtypes)
+gridWidth, gridHeight = (20, 15)
+grid = np.zeros((gridHeight, gridWidth), dtype=cell_dtypes)
 grid[1][1] = (1, False)  # Set a cell to Forest
-grid[2][2] = (1, True)  # Set a cell to Burning Forest
+grid[5][5] = (1, True)  # Set a cell to Burning Forest
+plt.figure(figsize=(7, 7)) #creates a figure with the specified size
 
-print(grid['on_fire'], '\n')
 
 """
 Implementation of basic wildfire CA Logic
@@ -23,13 +24,26 @@ Implementation of basic wildfire CA Logic
 3. Program stops when all cells are burning
 """
 
+#show_grid: grid String -> image
+#visualizes the grid
+def show_grid(g, t):
+    plt.clf() # clear the figure
+    plt.imshow(g, cmap='plasma') #visualize the grid
+    plt.title(t)
+
+
 #run_sim: grid -> grid
 #calls step(grid) until all cells are burning
 def run_sim(grid):
+
     while not np.all(grid['on_fire']): # check if all cells are burning
+        show_grid(grid['on_fire'], "Wildfire Sim") # show the grid
+        plt.show(block=False) # show the grid without blocking the code
+        plt.pause(1) # pause for a short time to allow the grid to be displayed
         grid = step(grid)
-        print(grid, '\n')
-        
+    
+    show_grid(grid['on_fire'], "Sim complete") # show the final grid
+    print("All cells are burning!")
     return grid
 
 #step: grid -> grid
@@ -37,14 +51,13 @@ def run_sim(grid):
 def step(grid):
     new_grid = np.copy(grid)
 
-    for i in range(len(grid)): # iterate through each row
-        for j in range(len(grid[i])): # iterate through each item in the row
+    for i in range(gridHeight): # iterate through each row
+        for j in range(gridWidth): # iterate through each item in the row
             for k in range(i-1, i+2):
                 for l in range(j-1, j+2):
                     #check if the indices are out of bounds
-                    if (k > len(grid) - 1) or (l > len(grid[i]) - 1) or (k < 0) or (l < 0):
+                    if (k > gridHeight - 1) or (l > gridWidth - 1) or (k < 0) or (l < 0):
                         continue
-                    #print(len(grid[i])-1)
                     #skips over the current cell
                     if k == i and l == j:
                         continue
@@ -52,6 +65,7 @@ def step(grid):
                     elif new_grid[k][l]['on_fire'] == True:
                         grid[i][j]['on_fire'] = True
                         break
+                    
     
     return grid
 
