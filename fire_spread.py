@@ -1,24 +1,38 @@
-import numpy as np
+from graph_builder import set_weights
+from sim_events import post
+import random
+import grids
 
-#step: grid -> grid
-#returns a new grid with the next step of the simulation
-def step(grid, height, width):
-    new_grid = np.copy(grid)
+"""
+TODO: DESCRIPTION
+"""
 
-    for i in range(height): # iterate through each row
-        for j in range(width): # iterate through each item in the row
-            for k in range(i-1, i+2):
-                for l in range(j-1, j+2):
-                    #check if the indices are out of bounds
-                    if (k > height - 1) or (l > width - 1) or (k < 0) or (l < 0):
-                        continue
-                    #skips over the current cell
-                    if k == i and l == j:
-                        continue
-                    #check if cells neighboring the current cell are burning
-                    elif new_grid[k][l]['on_fire'] == True:
-                        grid[i][j]['on_fire'] = True
-                        break
-                    
+def spread(grid: list, humidity: float, wind_speed: float, wind_direction: tuple, fire_start: tuple) :
+    fire_graph = set_weights(grid, humidity, wind_speed, wind_direction, fire_start)
+
+    #keep track of on_fire cells
+    on_fire = set()
     
-    return grid
+    #keep track of queue
+    queue = set()
+
+    #add the first item to both on_fire and queue
+    on_fire.add(fire_start)
+    queue.add(fire_start)
+
+    # loops through queue
+    while len(queue) > 0 :
+        current_cell = queue.pop()
+
+
+        for neighbour, weight in fire_graph[current_cell].items() :
+            if neighbour not in on_fire:
+                if random.random() <= weight:
+                    print(f"{neighbour} caught fire")
+                    on_fire.add(neighbour)
+                    queue.add(neighbour)
+                    post("Fire update", neighbour)
+    
+    post("Fire done", None)
+
+spread(grids.grid1, 0.5, 10, (2, 9), (1, 0))
