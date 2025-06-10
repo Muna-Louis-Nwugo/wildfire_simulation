@@ -51,7 +51,7 @@ Location Data ---> Config <--- Cell Objects
 ### Config, Location Data and Cell Objects
 - Information used to load maps and weather parameters
   - Location Data loaded off of a weather API (not decided yet)
-  - Cell objects include all information about a cell (including equations needed to compute probability)
+  - Cell objects contain all cell-specific data (including equations needed to compute probability)
   -   Crucially, cells are not aware of their own fire state
 
 ### Render [Starting point]
