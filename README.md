@@ -24,7 +24,19 @@ It works by:
   2. The second to stochastically propagate the fire throughout the grid (replacing a Cellular Automaton approach for a more elegant solution)
 - Using an event-driven approach to dynamically update the render as new cells catch fire and burn out.
 
-  ## ADD EQUATIONS
+A fire's spread probability is estimated using the following Compound formula:
+### Spread Probability = (Base Probability) * (Flammability Factor) * (Wind Factor)
+Where:
+- **Base Probability** is set to 0.5 (50% chance of spread if nothing else was considered)
+- **Flammability Factor** = (_FFuel_) * (1 - (_MFuel_ / _MExt_)) * (1 - _Humidity_); where:
+  - _FFuel_: Flammability of fuel when completely dry
+  - _MFuel_: Fraction of moist Weight in fuel
+  - _MExt_: threshold of moist weight in fuel before it can no longer burn
+  - _Humidity_ : Ambient humidity of environment
+- **Wind Factor** = e^((_wind coefficient_) * (_Wind Speed_) * cos(_Spread Direction_)); where:
+  - _wind coefficient_: Determines how strongly wind influences spread (set to 0.35 for a more natural variation in spread)
+  - _Wind Speed_: Speed of the wind in meters per second
+  - _Spread Direction_: Angle between wind direction and direction the program is considering spreading into
 
 ---
 ## System Architecture
@@ -48,23 +60,23 @@ Location Data ---> Config <--- Grid <--- Cell Objects
                 Graph Builder
 ```
 
-### Config, Location Data, Grid and Cell Objects
+### Config, Location Data, Grid and Cell Objects [The Helpers]
 - Information used to load maps and weather parameters
   - Location Data loaded off of a weather API (not decided yet)
-  - Grid stores every grid configuration supported by the system (plan on lettin user create custom grid configurations)
+  - Grid stores every grid configuration supported by the system (plan on letting the user create custom grid configurations)
   - Cell objects contain all cell-specific data (including equations needed to compute probability)
   -   Crucially, cells are not aware of their own fire state
 
-### Render [Starting point]
+### Render [Starting Point]
 - Visual representation of the grid
-- Allows users to select a configuration and sends that configuration to fire spread
+- Allows users to select a configuration and sends that configuration to Fire Spread
 - Observes SimEvents to be notified when the fire state is updated
 
-### Fire Spread
+### Fire Spread [The Brains]
 - Sends user preferences to Graph Builder, receives a graph
 - Performs a probabilistic spread of the fire on the graph, sending updates to sim events every time a new fire is lit
 
-### Graph Builder [The utility module]
+### Graph Builder [The Utility Module]
 - Takes a grid and returns a graph that fire spread can operate on
 
 ### SimEvents [The Event Broker]
