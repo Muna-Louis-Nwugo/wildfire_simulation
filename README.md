@@ -24,7 +24,7 @@ This Wildfire Simulation aims to realistically model the spread of a fire across
 It works by:
 - using a grid layered on top of 2 separate custom BFS traversals:
   1. The first to estimate a fire's spread probability between each cell
-  2. The second to stochastically propagate the fire throughout the grid (replacing a Cellular Automaton approach for a more elegant solution)
+  2. The second to stochastically propagate the fire throughout the grid (replacing a Cellular Automaton approach for a less clunky, more elegant solution)
 - Using an event-driven approach to dynamically update the render as new cells catch fire and burn out.
 
 A fire's spread probability is estimated using the following Compound formula:
