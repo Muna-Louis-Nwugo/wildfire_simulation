@@ -1,5 +1,5 @@
 # 🔥 Wildfire Simulation
-##### A 2-D spatial simulation engine demonstrating how wildfires spread across terrain and and assess damage to infrastructure using custom graph algorithms and probabilistic modelling.
+##### A 2-D spatial simulation engine demonstrating how wildfires spread across terrain and assess damage to infrastructure using custom graph algorithms and probabilistic modelling.
 ---
 ## Start and Run Simulation
 ``` bash
