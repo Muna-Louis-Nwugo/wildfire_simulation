@@ -30,7 +30,7 @@ It works by:
 ## System Architecture
 
 ```
-Location Data ---> Config <--- Cell Objects
+Location Data ---> Config <--- Grid <--- Cell Objects
                       |
                       | [Possible Selections]
                       |
@@ -48,9 +48,10 @@ Location Data ---> Config <--- Cell Objects
                 Graph Builder
 ```
 
-### Config, Location Data and Cell Objects
+### Config, Location Data, Grid and Cell Objects
 - Information used to load maps and weather parameters
   - Location Data loaded off of a weather API (not decided yet)
+  - Grid stores every grid configuration supported by the system (plan on lettin user create custom grid configurations)
   - Cell objects contain all cell-specific data (including equations needed to compute probability)
   -   Crucially, cells are not aware of their own fire state
 
