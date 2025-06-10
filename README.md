@@ -1,5 +1,8 @@
 # 🔥 Wildfire Simulation
 ##### A 2-D spatial simulation engine demonstrating how wildfires spread across terrain and assess damage to infrastructure using custom graph algorithms and probabilistic modelling.
+
+Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desire to help people and governments better prepare for catastrophes that may occur in their areas. Originally planned to be a tool to help people see the likelihood of a wildfire occurring in their area, this crude tool intends to give citizens, governments and insurance agencies an idea of how much damage a wildfire could cause if started in some regions of the United States.
+
 ---
 ## Start and Run Simulation
 ``` bash
@@ -81,3 +84,33 @@ Location Data ---> Config <--- Grid <--- Cell Objects
 
 ### SimEvents [The Event Broker]
 - Ferries fire state data from Fire Spread to Render
+
+---
+## Technologies Used
+1. Vanilla Python (all methods developed solo)
+2. Modular, Event-Driven Architecture
+3. Object-Oriented Design
+4. Observer Pattern
+5. Stochastic Modelling
+6. Two-Stage Algorithm Design (Graph-building + simulation)
+7. Graph-Based Spatial Algorithms
+8. Breadth First Search (Customised for this use case)
+
+### Planned
+1. API integration (Real-time weather data)
+2. JavaScript (Rendering)
+
+---
+## Project Status
+### Complete
+- Full Fire Spread Simulation Engine
+- Elementary Cell Object Configurations (e.g. forest, grass, water, road)
+
+### In Progress
+- Rendering
+- API Integration
+- Advanced Cell Object Configurations (e.g. high-rise, home, shack)
+  - require more sophisticated probability equations
+
+### Planned
+- Damage Cost Estimation Engine
