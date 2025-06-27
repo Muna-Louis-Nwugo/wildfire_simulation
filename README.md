@@ -18,7 +18,7 @@ python
 ```
 
 ---
-## Overview
+## The Simulation Engine
 This Wildfire Simulation aims to realistically model the spread of a fire across diverse terrains from city to rural, eventually aiming to simulate the cost of damage to infrastructure that wildfires cause under specific conditions. 
 
 It works by:
