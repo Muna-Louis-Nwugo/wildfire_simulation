@@ -1,0 +1,132 @@
+{
+    "practice": [
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ]
+    ]
+}
