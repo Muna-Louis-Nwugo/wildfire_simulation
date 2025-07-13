@@ -6,6 +6,7 @@ import json
 
 #Keeps track of on fire cells
 on_fire = []
+cost_damage = 0
 
 def newOnFire(cell) -> None :
     coords = cell.get_coordinates()
@@ -22,10 +23,19 @@ def fireDone(null) -> None :
     with open("update.json", "w") as update :
         json.dump("DONE", update)
 
+def updateCost(cell) -> int :
+    global cost_damage
+    cost_damage += (cell.cost())
+
+    with open("damage.json", "w") as update:
+        json.dump(cost_damage, update)
+
+    return cost_damage
     
 
 def set_up_listeners() -> None :
     sim_events.subscribe("fire_update", newOnFire)
+    sim_events.subscribe("fire_update", updateCost)
     sim_events.subscribe("fire_done", fireDone)
 
 

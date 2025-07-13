@@ -29,11 +29,13 @@ Ideally, the simulation would be run from this file.
 sim_config = {
     "humidity": 0.5,
     "wind_speed":  10,
-    "wind_direction": (2, 9)
+    "wind_direction": (2, 9),
+    "sim_started": False
 }
 
 #setup HTTP server
 class UserInputHTTP(BaseHTTPRequestHandler):
+
     def do_OPTIONS(self):
         # This handles CORS preflight requests from browsers.
         self.send_response(200)
@@ -60,9 +62,17 @@ class UserInputHTTP(BaseHTTPRequestHandler):
         sim_config["humidity"] = data.get("humidity", sim_config["humidity"])
         sim_config["wind_speed"] = data.get("wind_speed", sim_config["wind_speed"])
         sim_config["wind_direction"] = tuple(data.get("wind_direction", sim_config["wind_direction"]))
-        print(sim_config)
+        
 
-        spread(practice, (1, 0))
+        #start the simulation once the post has been received
+        if not sim_config["sim_started"]:
+            print(sim_config)
+            sim_config["sim_started"] = True
+            threading.Thread(
+                target=run_spread,
+                args=(self.server, practice, (0, 0)),
+                daemon=False
+            ).start()
 
         # 5. Send back a 200 OK response with CORS headers
         self.send_response(200)
@@ -83,6 +93,8 @@ def start_http_server():
 
 # spread the fire, and send updates to Utils module
 def spread(grid: list, fire_start: tuple) :
+    set_up_listeners()
+    print("🔥🔥🔥 spread() STARTED 🔥🔥🔥")
     fire_graph = set_weights(grid, sim_config["humidity"], sim_config["wind_speed"], sim_config["wind_direction"], fire_start)
 
     #keep track of on_fire cells
@@ -94,32 +106,40 @@ def spread(grid: list, fire_start: tuple) :
     #add the first item to both on_fire and queue
     on_fire.add(fire_start)
     queue.add(fire_start)
+    #print("fire-start added to queue")
 
     # loops through queue
     while len(queue) > 0 :
-        time.sleep(1)
+        #print("while loop started")
+        time.sleep(0.5)
         current_cell = queue.pop()
 
 
         for neighbour, weight in fire_graph[current_cell].items() :
+            #print("for loop running")
             if neighbour not in on_fire:
-                if random.random() <= weight:
-                    #print(f"{neighbour} caught fire")
+                #print(f"{neighbour} not on fire")
+                r = random.random()
+                #print(r)
+                #print(weight)
+                #print(r<=weight)
+
+                if r <= weight:
+                    print(f"{neighbour} caught fire")
                     on_fire.add(neighbour)
                     queue.add(neighbour)
 
                     post("fire_update", grid[neighbour[0]][neighbour[1]])
 
 
-    
+    print("🔥🔥🔥 spread() ENDED 🔥🔥🔥")
     post("fire_done", None)
+
+#helps run the spread server when it's needed
+def run_spread(server, grid: list, coord: tuple) -> None:
+    spread(grid, coord)
+    threading.Thread(target=server.shutdown, daemon=True).start()
 
 
 if __name__ == "__main__":
-    set_up_listeners()
-
-    # Start server in the background so it doesn't block simulation
-    threading.Thread(target=start_http_server, daemon=True).start()
-
-    # Run your simulation
-    spread(practice, (1, 0))
+    start_http_server()
