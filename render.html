@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfire Simulation</title>
+    <link rel="stylesheet" href="render.css">
 </head>
 <body>
+    <div class="container">
+        <h1>🔥 Wildfire Simulation</h1>
+        
+        <!-- Grid Selection -->
+        <div id="grid-selection" class="grid-selection">
+            <h2>Select a Grid:</h2>
+            <div id="grid-buttons"></div>
+        </div>
+        
+        <!-- Simulation Area -->
+        <div id="simulation-area" class="simulation-area">
+            <h2 id="grid-title">Simulation</h2>
+            <div class="damage-display">
+                Damage Cost: $<span id="damage-cost">0</span>
+            </div>
+            <div class="instructions">
+                Click any cell to start the fire simulation
+            </div>
+            <div class="status" id="status">Ready to start</div>
+            <div id="grid-container"></div>
+        </div>
+    </div>
+
+    <!-- Original HTML commented out -->
+    <!-- 
     <h1>Check the console!</h1>
+    -->
+    
     <script src="render.js"></script>
 </body>
 </html>

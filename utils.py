@@ -30,6 +30,7 @@ def updateCost(cell) -> int :
     with open("damage.json", "w") as update:
         json.dump(cost_damage, update)
 
+    print(cost_damage)
     return cost_damage
     
 

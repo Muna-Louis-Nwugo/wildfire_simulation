@@ -1,24 +1,6 @@
 // simply get bring the config file into the render
 //console.log("Hello World")
 
-/* let grids;
-
-fetch("config.json")
-    .then(response => response.json())
-    .then(value => {
-        grids = value;
-        console.log(grids);
-    })
-    .catch(error => console.error("Something went wrong"));
-
-console.log(grids)
-// CONFIG TO RENDER DATA PIPELINE COMPLETE
-
-//const fs = require("fs"); // imports fs (file system) module
-let jsonGrids = JSON.stringify(grids);
-console.log(jsonGrids) */
-
-
 let grids;
 let jsonGrids;
 let selectedGrid;
@@ -29,18 +11,15 @@ const getConfig = async() => {
     grids = await gridData.json();  // parses the JSON
     console.log(grids);
 
-    selectedGrid = "wildland_urban"
-
-
-
+    selectedGrid = "suburban"
 
     const fireData = await fetch("update.json");
     let on_fire = await fireData.json();
     console.log(on_fire);
-    jsonOnFire = JSON.stringify(on_fire);
-    console.log(jsonOnFire)
 
-
+    const damage = await fetch("damage.json");
+    let damageCost = await damage.json();
+    console.log(damageCost)
 
     // post something to the HTTP server
     const url = "http://localhost:5000";
@@ -48,7 +27,8 @@ const getConfig = async() => {
     "humidity": 0.3,
     "wind_speed":  12,
     "wind_direction": [12, 3],
-    "grid": selectedGrid
+    "grid": selectedGrid,
+    "fire_start": [3, 8]
     };
 
     const options = {
@@ -74,12 +54,5 @@ const getConfig = async() => {
             console.error('Error:', error); // Handle any errors during the fetch or parsing
         });
 }
-
-/* grids = getConfig()
-    .then(grids => {
-        jsonGrids = JSON.stringify(grids);
-    }); */
-//console.log(grids);
-//console.log(jsonGrids);
 
 getConfig();

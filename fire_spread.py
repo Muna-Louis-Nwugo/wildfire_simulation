@@ -31,6 +31,7 @@ sim_config = {
     "humidity": 0.5,
     "wind_speed":  10,
     "wind_direction": (2, 9),
+    "fire_start": (0, 0),
     "sim_started": False
 }
 
@@ -64,6 +65,7 @@ class UserInputHTTP(BaseHTTPRequestHandler):
         sim_config["wind_speed"] = data.get("wind_speed", sim_config["wind_speed"])
         sim_config["wind_direction"] = tuple(data.get("wind_direction", sim_config["wind_direction"]))
         sim_config["grid"] = data.get("grid", "practice")
+        sim_config["fire_start"] = tuple(data.get("fire_start", sim_config["fire_start"]))
         
 
         #start the simulation once the post has been received
@@ -72,7 +74,7 @@ class UserInputHTTP(BaseHTTPRequestHandler):
             sim_config["sim_started"] = True
             threading.Thread(
                 target=run_spread,
-                args=(self.server, (0, 0)),
+                args=(self.server, sim_config["fire_start"]),
                 daemon=False
             ).start()
 
@@ -95,9 +97,10 @@ def start_http_server():
 
 # spread the fire, and send updates to Utils module
 def spread(fire_start: tuple) :
-    set_up_listeners()
     grid = grid_dict[sim_config["grid"]]
     print("🔥🔥🔥 spread() STARTED 🔥🔥🔥")
+    print(f"{fire_start} caught fire")
+    post("fire_update", grid[fire_start[0]][fire_start[1]])
     fire_graph = set_weights(grid, sim_config["humidity"], sim_config["wind_speed"], sim_config["wind_direction"], fire_start)
 
     #keep track of on_fire cells
@@ -140,6 +143,7 @@ def spread(fire_start: tuple) :
 
 #helps run the spread server when it's needed
 def run_spread(server, coord: tuple) -> None:
+    set_up_listeners()
     spread(coord)
     threading.Thread(target=server.shutdown, daemon=True).start()
 
