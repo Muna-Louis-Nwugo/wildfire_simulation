@@ -1,7 +1,7 @@
 from graph_builder import set_weights
 from sim_events import post
 from utils import set_up_listeners
-from grids import practice
+from grids import grid_dict
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import random
 import time
@@ -27,6 +27,7 @@ the simulation itself.
 Ideally, the simulation would be run from this file.
 """
 sim_config = {
+    "grid": "practice",
     "humidity": 0.5,
     "wind_speed":  10,
     "wind_direction": (2, 9),
@@ -62,6 +63,7 @@ class UserInputHTTP(BaseHTTPRequestHandler):
         sim_config["humidity"] = data.get("humidity", sim_config["humidity"])
         sim_config["wind_speed"] = data.get("wind_speed", sim_config["wind_speed"])
         sim_config["wind_direction"] = tuple(data.get("wind_direction", sim_config["wind_direction"]))
+        sim_config["grid"] = data.get("grid", "practice")
         
 
         #start the simulation once the post has been received
@@ -70,7 +72,7 @@ class UserInputHTTP(BaseHTTPRequestHandler):
             sim_config["sim_started"] = True
             threading.Thread(
                 target=run_spread,
-                args=(self.server, practice, (0, 0)),
+                args=(self.server, (0, 0)),
                 daemon=False
             ).start()
 
@@ -92,8 +94,9 @@ def start_http_server():
 
 
 # spread the fire, and send updates to Utils module
-def spread(grid: list, fire_start: tuple) :
+def spread(fire_start: tuple) :
     set_up_listeners()
+    grid = grid_dict[sim_config["grid"]]
     print("🔥🔥🔥 spread() STARTED 🔥🔥🔥")
     fire_graph = set_weights(grid, sim_config["humidity"], sim_config["wind_speed"], sim_config["wind_direction"], fire_start)
 
@@ -136,8 +139,8 @@ def spread(grid: list, fire_start: tuple) :
     post("fire_done", None)
 
 #helps run the spread server when it's needed
-def run_spread(server, grid: list, coord: tuple) -> None:
-    spread(grid, coord)
+def run_spread(server, coord: tuple) -> None:
+    spread(coord)
     threading.Thread(target=server.shutdown, daemon=True).start()
 
 

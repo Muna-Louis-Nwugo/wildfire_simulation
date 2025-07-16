@@ -128,5 +128,6725 @@
                 "moisture_ext": 1
             }
         ]
+    ],
+    "urban_downtown": [
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2500,
+                "num_floors": 8,
+                "cost_per_sqft": 461
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3000,
+                "num_floors": 12,
+                "cost_per_sqft": 904
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 10,
+                "cost_per_sqft": 435
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3200,
+                "num_floors": 15,
+                "cost_per_sqft": 499
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2700,
+                "num_floors": 9,
+                "cost_per_sqft": 459
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3100,
+                "num_floors": 11,
+                "cost_per_sqft": 283
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2900,
+                "num_floors": 13,
+                "cost_per_sqft": 826
+            }
+        ],
+        [
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1800,
+                "num_floors": 6,
+                "cost_per_sqft": 354
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 2000,
+                "num_floors": 8,
+                "cost_per_sqft": 289
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Shopping Mall",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.2,
+                "floor_area": 8000,
+                "num_floors": 2,
+                "cost_per_sqft": 445
+            },
+            {
+                "cell_type": "Shopping Mall",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.2,
+                "floor_area": 8000,
+                "num_floors": 2,
+                "cost_per_sqft": 325
+            },
+            {
+                "cell_type": "Infrastructure",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0.02,
+                "fuel_moisture": 0.08,
+                "moisture_ext": 0.12,
+                "floor_area": 1500,
+                "num_floors": 3,
+                "cost_per_sqft": 431
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2600,
+                "num_floors": 7,
+                "cost_per_sqft": 288
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2400,
+                "num_floors": 6,
+                "cost_per_sqft": 431
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2300,
+                "num_floors": 5,
+                "cost_per_sqft": 987
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1700,
+                "num_floors": 7,
+                "cost_per_sqft": 210
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1900,
+                "num_floors": 9,
+                "cost_per_sqft": 608
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2500,
+                "num_floors": 8,
+                "cost_per_sqft": 707
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2700,
+                "num_floors": 10,
+                "cost_per_sqft": 669
+            }
+        ],
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 12,
+                "cost_per_sqft": 550
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3000,
+                "num_floors": 14,
+                "cost_per_sqft": 380
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.25,
+                "floor_area": 4000,
+                "num_floors": 1,
+                "cost_per_sqft": 123
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.25,
+                "floor_area": 4500,
+                "num_floors": 1,
+                "cost_per_sqft": 121
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2900,
+                "num_floors": 11,
+                "cost_per_sqft": 286
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2600,
+                "num_floors": 9,
+                "cost_per_sqft": 717
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2400,
+                "num_floors": 7,
+                "cost_per_sqft": 607
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 13,
+                "cost_per_sqft": 725
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1600,
+                "num_floors": 5,
+                "cost_per_sqft": 334
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2200,
+                "num_floors": 6,
+                "cost_per_sqft": 370
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2700,
+                "num_floors": 8,
+                "cost_per_sqft": 547
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2500,
+                "num_floors": 9,
+                "cost_per_sqft": 482
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1800,
+                "num_floors": 7,
+                "cost_per_sqft": 534
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2300,
+                "num_floors": 5,
+                "cost_per_sqft": 294
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2600,
+                "num_floors": 10,
+                "cost_per_sqft": 477
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1700,
+                "num_floors": 6,
+                "cost_per_sqft": 404
+            }
+        ],
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2400,
+                "num_floors": 7,
+                "cost_per_sqft": 820
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2500,
+                "num_floors": 8,
+                "cost_per_sqft": 252
+            }
+        ],
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2900,
+                "num_floors": 11,
+                "cost_per_sqft": 926
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1900,
+                "num_floors": 8,
+                "cost_per_sqft": 172
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 12,
+                "cost_per_sqft": 677
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2600,
+                "num_floors": 9,
+                "cost_per_sqft": 906
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2700,
+                "num_floors": 10,
+                "cost_per_sqft": 784
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.22,
+                "floor_area": 1800,
+                "num_floors": 7,
+                "cost_per_sqft": 313
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2400,
+                "num_floors": 6,
+                "cost_per_sqft": 972
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2500,
+                "num_floors": 8,
+                "cost_per_sqft": 564
+            }
+        ],
+        [
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3100,
+                "num_floors": 15,
+                "cost_per_sqft": 885
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 12,
+                "cost_per_sqft": 557
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2900,
+                "num_floors": 13,
+                "cost_per_sqft": 982
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 3000,
+                "num_floors": 14,
+                "cost_per_sqft": 709
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2700,
+                "num_floors": 11,
+                "cost_per_sqft": 524
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2600,
+                "num_floors": 10,
+                "cost_per_sqft": 716
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.1,
+                "moisture_ext": 0.18,
+                "floor_area": 2800,
+                "num_floors": 12,
+                "cost_per_sqft": 848
+            }
+        ]
+    ],
+    "suburban": [
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 136
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 146
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 186
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 154
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.32,
+                "floor_area": 4500,
+                "num_floors": 3,
+                "cost_per_sqft": 424
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.32,
+                "floor_area": 4800,
+                "num_floors": 3,
+                "cost_per_sqft": 459
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 189
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 209
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "Strip Mall",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.28,
+                "floor_area": 1200,
+                "num_floors": 1,
+                "cost_per_sqft": 279
+            },
+            {
+                "cell_type": "Strip Mall",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.28,
+                "floor_area": 1400,
+                "num_floors": 1,
+                "cost_per_sqft": 444
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 170
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 210
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 145
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 166
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 176
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 221
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 133
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 214
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 136
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 239
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 150
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 228
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 198
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 200
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.32,
+                "floor_area": 4200,
+                "num_floors": 3,
+                "cost_per_sqft": 411
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.32,
+                "floor_area": 4600,
+                "num_floors": 3,
+                "cost_per_sqft": 519
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 135
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 111
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 113
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 227
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 242
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 179
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 101
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 195
+            }
+        ]
+    ],
+    "rural_farmland": [
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 3000,
+                "num_floors": 1,
+                "cost_per_sqft": 89
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 2800,
+                "num_floors": 1,
+                "cost_per_sqft": 27
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Shack",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.35,
+                "floor_area": 1200,
+                "num_floors": 1,
+                "cost_per_sqft": 58
+            },
+            {
+                "cell_type": "Shack",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.35,
+                "floor_area": 1100,
+                "num_floors": 1,
+                "cost_per_sqft": 49
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 3200,
+                "num_floors": 1,
+                "cost_per_sqft": 98
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.2,
+                "floor_area": 1800,
+                "num_floors": 1,
+                "cost_per_sqft": 107
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 2900,
+                "num_floors": 1,
+                "cost_per_sqft": 16
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 3100,
+                "num_floors": 1,
+                "cost_per_sqft": 90
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.2,
+                "floor_area": 1900,
+                "num_floors": 1,
+                "cost_per_sqft": 128
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "Shack",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.35,
+                "floor_area": 1000,
+                "num_floors": 1,
+                "cost_per_sqft": 57
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 2700,
+                "num_floors": 1,
+                "cost_per_sqft": 55
+            },
+            {
+                "cell_type": "Barn",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0.16,
+                "fuel_moisture": 0.4,
+                "moisture_ext": 0.4,
+                "floor_area": 2500,
+                "num_floors": 1,
+                "cost_per_sqft": 100
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.35,
+                "moisture_ext": 0.4
+            }
+        ]
+    ],
+    "wildland_urban": [
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 214
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 227
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 107
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 216
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 188
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 135
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 189
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "forest",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0.8,
+                "fuel_moisture": 0.3,
+                "moisture_ext": 0.4
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 135
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 203
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 181
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 206
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 190
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 190
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.22,
+                "floor_area": 1600,
+                "num_floors": 4,
+                "cost_per_sqft": 624
+            },
+            {
+                "cell_type": "Apartment Complex",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.06,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.22,
+                "floor_area": 1800,
+                "num_floors": 4,
+                "cost_per_sqft": 394
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 103
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 139
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 148
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 247
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 138
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.18,
+                "floor_area": 1800,
+                "num_floors": 3,
+                "cost_per_sqft": 672
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.18,
+                "floor_area": 2000,
+                "num_floors": 3,
+                "cost_per_sqft": 506
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 128
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 141
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.22,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 114
+            }
+        ]
+    ],
+    "industrial": [
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6000,
+                "num_floors": 1,
+                "cost_per_sqft": 75
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6500,
+                "num_floors": 1,
+                "cost_per_sqft": 127
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5800,
+                "num_floors": 1,
+                "cost_per_sqft": 80
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6200,
+                "num_floors": 1,
+                "cost_per_sqft": 112
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5900,
+                "num_floors": 1,
+                "cost_per_sqft": 112
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6400,
+                "num_floors": 1,
+                "cost_per_sqft": 131
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6100,
+                "num_floors": 1,
+                "cost_per_sqft": 63
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5700,
+                "num_floors": 1,
+                "cost_per_sqft": 54
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6300,
+                "num_floors": 1,
+                "cost_per_sqft": 80
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Infrastructure",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0.02,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.12,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 558
+            },
+            {
+                "cell_type": "Infrastructure",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0.02,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.12,
+                "floor_area": 2200,
+                "num_floors": 2,
+                "cost_per_sqft": 752
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6000,
+                "num_floors": 1,
+                "cost_per_sqft": 145
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5800,
+                "num_floors": 1,
+                "cost_per_sqft": 143
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6200,
+                "num_floors": 1,
+                "cost_per_sqft": 131
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6400,
+                "num_floors": 1,
+                "cost_per_sqft": 70
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5900,
+                "num_floors": 1,
+                "cost_per_sqft": 139
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6100,
+                "num_floors": 1,
+                "cost_per_sqft": 133
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6300,
+                "num_floors": 1,
+                "cost_per_sqft": 81
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.18,
+                "floor_area": 1800,
+                "num_floors": 2,
+                "cost_per_sqft": 997
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.18,
+                "floor_area": 2000,
+                "num_floors": 2,
+                "cost_per_sqft": 335
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5700,
+                "num_floors": 1,
+                "cost_per_sqft": 39
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6000,
+                "num_floors": 1,
+                "cost_per_sqft": 147
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6500,
+                "num_floors": 1,
+                "cost_per_sqft": 44
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5800,
+                "num_floors": 1,
+                "cost_per_sqft": 103
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6200,
+                "num_floors": 1,
+                "cost_per_sqft": 102
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Office",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.18,
+                "floor_area": 1900,
+                "num_floors": 2,
+                "cost_per_sqft": 499
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6300,
+                "num_floors": 1,
+                "cost_per_sqft": 61
+            },
+            {
+                "cell_type": "Infrastructure",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0.02,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.12,
+                "floor_area": 2100,
+                "num_floors": 2,
+                "cost_per_sqft": 973
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5900,
+                "num_floors": 1,
+                "cost_per_sqft": 102
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6400,
+                "num_floors": 1,
+                "cost_per_sqft": 128
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6000,
+                "num_floors": 1,
+                "cost_per_sqft": 42
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5700,
+                "num_floors": 1,
+                "cost_per_sqft": 78
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6100,
+                "num_floors": 1,
+                "cost_per_sqft": 129
+            }
+        ],
+        [
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6200,
+                "num_floors": 1,
+                "cost_per_sqft": 109
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6500,
+                "num_floors": 1,
+                "cost_per_sqft": 131
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5800,
+                "num_floors": 1,
+                "cost_per_sqft": 97
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6300,
+                "num_floors": 1,
+                "cost_per_sqft": 114
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6000,
+                "num_floors": 1,
+                "cost_per_sqft": 64
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 5900,
+                "num_floors": 1,
+                "cost_per_sqft": 36
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Warehouse",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.07,
+                "fuel_moisture": 0.25,
+                "moisture_ext": 0.25,
+                "floor_area": 6400,
+                "num_floors": 1,
+                "cost_per_sqft": 51
+            }
+        ]
+    ],
+    "coastal": [
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    0,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2800,
+                "num_floors": 2,
+                "cost_per_sqft": 142
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    0,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 3000,
+                "num_floors": 2,
+                "cost_per_sqft": 219
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.32,
+                "floor_area": 5000,
+                "num_floors": 3,
+                "cost_per_sqft": 477
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    1,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    1,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    1,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    1,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    1,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    2,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    2,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    2,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    2,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    2,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2600,
+                "num_floors": 2,
+                "cost_per_sqft": 221
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    2,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2900,
+                "num_floors": 2,
+                "cost_per_sqft": 148
+            },
+            {
+                "cell_type": "Mansion",
+                "coordinates": [
+                    2,
+                    9
+                ],
+                "base_flammability": 0.05,
+                "fuel_moisture": 0.15,
+                "moisture_ext": 0.32,
+                "floor_area": 4800,
+                "num_floors": 3,
+                "cost_per_sqft": 401
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    3,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    3,
+                    4
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    4,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    4,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    4,
+                    3
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2700,
+                "num_floors": 2,
+                "cost_per_sqft": 226
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 238
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2800,
+                "num_floors": 2,
+                "cost_per_sqft": 167
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    4,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 3100,
+                "num_floors": 2,
+                "cost_per_sqft": 218
+            }
+        ],
+        [
+            {
+                "cell_type": "water",
+                "coordinates": [
+                    5,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    5,
+                    2
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    4
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    6,
+                    1
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    3
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 183
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2600,
+                "num_floors": 2,
+                "cost_per_sqft": 184
+            },
+            {
+                "cell_type": "Strip Mall",
+                "coordinates": [
+                    6,
+                    6
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.28,
+                "floor_area": 1500,
+                "num_floors": 1,
+                "cost_per_sqft": 432
+            },
+            {
+                "cell_type": "Strip Mall",
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "base_flammability": 0.08,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.28,
+                "floor_area": 1600,
+                "num_floors": 1,
+                "cost_per_sqft": 291
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    6,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2700,
+                "num_floors": 2,
+                "cost_per_sqft": 226
+            }
+        ],
+        [
+            {
+                "cell_type": "grass",
+                "coordinates": [
+                    7,
+                    0
+                ],
+                "base_flammability": 0.6,
+                "fuel_moisture": 0.2,
+                "moisture_ext": 0.3
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    2
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    7,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 136
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    7,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 156
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    7
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    8
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    7,
+                    9
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            }
+        ],
+        [
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    0
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    1
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    2
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2800,
+                "num_floors": 2,
+                "cost_per_sqft": 136
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2600,
+                "num_floors": 2,
+                "cost_per_sqft": 220
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 134
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    8,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Infrastructure",
+                "coordinates": [
+                    8,
+                    6
+                ],
+                "base_flammability": 0.02,
+                "fuel_moisture": 0.12,
+                "moisture_ext": 0.12,
+                "floor_area": 1800,
+                "num_floors": 2,
+                "cost_per_sqft": 754
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 119
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2700,
+                "num_floors": 2,
+                "cost_per_sqft": 226
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    8,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2900,
+                "num_floors": 2,
+                "cost_per_sqft": 108
+            }
+        ],
+        [
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    0
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2700,
+                "num_floors": 2,
+                "cost_per_sqft": 220
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 181
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    2
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2800,
+                "num_floors": 2,
+                "cost_per_sqft": 185
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    3
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2600,
+                "num_floors": 2,
+                "cost_per_sqft": 240
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2400,
+                "num_floors": 2,
+                "cost_per_sqft": 120
+            },
+            {
+                "cell_type": "road",
+                "coordinates": [
+                    9,
+                    5
+                ],
+                "base_flammability": 0,
+                "fuel_moisture": 1,
+                "moisture_ext": 1
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    6
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2300,
+                "num_floors": 2,
+                "cost_per_sqft": 104
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    7
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2500,
+                "num_floors": 2,
+                "cost_per_sqft": 104
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2700,
+                "num_floors": 2,
+                "cost_per_sqft": 146
+            },
+            {
+                "cell_type": "Concrete House",
+                "coordinates": [
+                    9,
+                    9
+                ],
+                "base_flammability": 0.04,
+                "fuel_moisture": 0.18,
+                "moisture_ext": 0.2,
+                "floor_area": 2900,
+                "num_floors": 2,
+                "cost_per_sqft": 150
+            }
+        ]
     ]
 }

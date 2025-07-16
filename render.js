@@ -21,6 +21,7 @@ console.log(jsonGrids) */
 
 let grids;
 let jsonGrids;
+let selectedGrid;
 
 // Asynchronous function to collect configuration data
 const getConfig = async() => {
@@ -28,8 +29,7 @@ const getConfig = async() => {
     grids = await gridData.json();  // parses the JSON
     console.log(grids);
 
-    jsonGrids = JSON.stringify(grids);
-    console.log(jsonGrids);
+    selectedGrid = "wildland_urban"
 
 
 
@@ -47,7 +47,8 @@ const getConfig = async() => {
     const data = {
     "humidity": 0.3,
     "wind_speed":  12,
-    "wind_direction": [12, 3]
+    "wind_direction": [12, 3],
+    "grid": selectedGrid
     };
 
     const options = {
@@ -82,4 +83,3 @@ const getConfig = async() => {
 //console.log(jsonGrids);
 
 getConfig();
-
