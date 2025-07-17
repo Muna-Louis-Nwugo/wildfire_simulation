@@ -9,8 +9,8 @@ Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desir
 git clone https://github.com/Muna-Louis-Nwugo/wildfire_simulation.git
 cd wildfire_simulation
 ```
-Terminal 1 - Start Backend:
 ```
+Terminal 1 - Start Backend:
 python fire_spread.py
 ```
 
