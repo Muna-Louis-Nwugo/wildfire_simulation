@@ -11,12 +11,12 @@ cd wildfire_simulation
 ```
 Terminal 1 - Start Backend:
 ```
-bashpython fire_spread.py
+python fire_spread.py
 ```
 
 Terminal 2 - Start Frontend:
 ```
-bashpython -m http.server 8000
+python -m http.server 8000
 ```
 Open Browser:
 ```
