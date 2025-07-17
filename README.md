@@ -5,17 +5,30 @@ Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desir
 
 ---
 ## Start and Run Simulation
-``` bash
-git clone https://github.com/Muna-Louis-Nwugo/wildfire_simulation.git
-cd wildfire_simulation/fire_spread
-python
->>> from fire_spread import spread
->>> from grids import grid1
->>> # Usage: spread(grid, humidity: float, wind_speed: float, wind_direction: tuple, fire_start: tuple)
->>> spread(grid1, humidity=30.0, wind_speed=15.0, wind_direction=(2, 9), fire_start=(0, 0))
->>> # Note: grid1 is a 5x5 grid
->>> # More grid options and simpler entry point coming with completed render
 ```
+git clone https://github.com/Muna-Louis-Nwugo/wildfire_simulation.git
+cd wildfire_simulation
+```
+Terminal 1 - Start Backend:
+```
+bashpython fire_spread.py
+```
+
+Terminal 2 - Start Frontend:
+```
+bashpython -m http.server 8000
+```
+Open Browser:
+```
+http://localhost:8000/render.html
+```
+
+### How to Use
+Select a terrain type from the welcome screen (Urban, Suburban, Rural, etc.)
+Adjust simulation parameters (humidity, wind speed, wind direction)
+Click any cell on the grid to start the fire
+Watch the fire spread in real-time with damage cost tracking
+View final results when simulation completes
 
 ---
 ## Overview
