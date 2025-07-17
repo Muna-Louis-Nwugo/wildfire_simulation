@@ -39,7 +39,7 @@ class Cell(ABC):
     def prob_spread(self, ambient_humidity: float, wind_speed: float, wind_direction: tuple, fire_spread_direction: tuple) -> float :
         # calculates the probability of fire spreading to this cell
         # returns a float value
-        base_prob = 0.5
+        base_prob = 0.8
         return base_prob * self.get_flammability(ambient_humidity) * self.wind_effect(wind_speed, wind_direction, fire_spread_direction)
     
     #determines the cost of this cell

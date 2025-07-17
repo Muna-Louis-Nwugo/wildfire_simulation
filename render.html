@@ -5,33 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildfire Simulation</title>
     <link rel="stylesheet" href="render.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>🔥 Wildfire Simulation</h1>
-        
-        <!-- Grid Selection -->
-        <div id="grid-selection" class="grid-selection">
-            <h2>Select a Grid:</h2>
-            <div id="grid-buttons"></div>
-        </div>
-        
-        <!-- Simulation Area -->
-        <div id="simulation-area" class="simulation-area">
-            <h2 id="grid-title">Simulation</h2>
-            <div class="damage-display">
-                Damage Cost: $<span id="damage-cost">0</span>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="welcome-container">
+            <div class="welcome-header">
+                <span class="material-icons fire-icon">local_fire_department</span>
+                <h1>Welcome to Your Wildfire Simulation</h1>
+                <p>Select a terrain type to begin your simulation</p>
             </div>
-            <div class="instructions">
-                Click any cell to start the fire simulation
+            
+            <div class="grid-selection">
+                <h2>Choose Your Terrain</h2>
+                <div class="grid-buttons" id="grid-buttons">
+                    <!-- Grid buttons will be populated by JavaScript -->
+                </div>
             </div>
-            <div class="status" id="status">Ready to start</div>
-            <div id="grid-container"></div>
         </div>
     </div>
 
-    <!-- Original HTML commented out -->
-    <!-- 
+    <!-- Simulation Screen -->
+    <div id="simulation-screen" class="screen">
+        <div class="simulation-header">
+            <div class="header-left">
+                <button id="back-button" class="icon-button">
+                    <span class="material-icons">arrow_back</span>
+                </button>
+                <h2 id="grid-title">Simulation</h2>
+            </div>
+            
+            <div class="damage-display">
+                <div class="damage-card">
+                    <span class="material-icons">attach_money</span>
+                    <div class="damage-info">
+                        <div class="damage-label">Total Damage</div>
+                        <div class="damage-amount" id="damage-amount">$0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="simulation-content">
+            <div class="grid-container">
+                <div class="grid-instructions">
+                    <p><span class="material-icons">touch_app</span> Click on a cell to start the fire</p>
+                </div>
+                <div id="grid-display" class="grid-display">
+                    <!-- Grid will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="simulation-controls">
+                <div class="controls-card">
+                    <h3>Simulation Parameters</h3>
+                    <div class="parameter-grid">
+                        <div class="parameter">
+                            <label for="humidity">Humidity (%)</label>
+                            <input type="range" id="humidity" min="0" max="100" value="30">
+                            <span id="humidity-value">30%</span>
+                        </div>
+                        <div class="parameter">
+                            <label for="wind-speed">Wind Speed (m/s)</label>
+                            <input type="range" id="wind-speed" min="0" max="30" value="12">
+                            <span id="wind-speed-value">12 m/s</span>
+                        </div>
+                        <div class="parameter">
+                            <label for="wind-direction-x">Wind Direction X</label>
+                            <input type="range" id="wind-direction-x" min="-10" max="10" value="1">
+                            <span id="wind-direction-x-value">1</span>
+                        </div>
+                        <div class="parameter">
+                            <label for="wind-direction-y">Wind Direction Y</label>
+                            <input type="range" id="wind-direction-y" min="-10" max="10" value="0">
+                            <span id="wind-direction-y-value">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="end-screen" class="screen">
+        <div class="end-container">
+            <div class="end-header">
+                <span class="material-icons fire-icon completed">local_fire_department</span>
+                <h1>Simulation Complete</h1>
+                <p>The wildfire has finished spreading</p>
+            </div>
+            
+            <div class="results-card">
+                <h2>Final Results</h2>
+                <div class="final-damage">
+                    <span class="material-icons">attach_money</span>
+                    <div class="final-damage-info">
+                        <div class="final-damage-label">Total Economic Damage</div>
+                        <div class="final-damage-amount" id="final-damage-amount">$0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-actions">
+                <button id="restart-button" class="primary-button">
+                    <span class="material-icons">refresh</span>
+                    Run Another Simulation
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Simulation in progress...</p>
+        </div>
+    </div>
+
+    <!-- Original content (commented out) -->
+    <!--
     <h1>Check the console!</h1>
     -->
     

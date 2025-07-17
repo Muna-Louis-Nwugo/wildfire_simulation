@@ -87,7 +87,6 @@ class UserInputHTTP(BaseHTTPRequestHandler):
         # 6. Send JSON response to frontend saying "status": "updated"
         self.wfile.write(json.dumps({"status": "updated"}).encode('utf-8'))
 
-
 #start http server
 def start_http_server():
     server = HTTPServer(('localhost', 5000), UserInputHTTP)
@@ -98,7 +97,7 @@ def start_http_server():
 # spread the fire, and send updates to Utils module
 def spread(fire_start: tuple) :
     grid = grid_dict[sim_config["grid"]]
-    print("🔥🔥🔥 spread() STARTED 🔥🔥🔥")
+    print("spread() STARTED")
     print(f"{fire_start} caught fire")
     post("fire_update", grid[fire_start[0]][fire_start[1]])
     fire_graph = set_weights(grid, sim_config["humidity"], sim_config["wind_speed"], sim_config["wind_direction"], fire_start)
@@ -138,7 +137,7 @@ def spread(fire_start: tuple) :
                     post("fire_update", grid[neighbour[0]][neighbour[1]])
 
 
-    print("🔥🔥🔥 spread() ENDED 🔥🔥🔥")
+    print("spread() ENDED")
     post("fire_done", None)
 
 #helps run the spread server when it's needed
