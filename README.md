@@ -16,10 +16,12 @@ python fire_spread.py
 
 Terminal 2 - Start Frontend:
 ```
+cd wildfire_simulation
 python -m http.server 8000
 ```
 Open Browser:
 ```
+cd wildfire_simulation
 http://localhost:8000/render.html
 ```
 
