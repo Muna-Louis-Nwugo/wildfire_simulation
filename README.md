@@ -7,6 +7,7 @@ Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desir
 
 ---
 ## Start and Run Simulation
+Clone the Repo
 ```
 git clone https://github.com/Muna-Louis-Nwugo/wildfire_simulation.git
 ```
