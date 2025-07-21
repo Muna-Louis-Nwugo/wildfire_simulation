@@ -30,11 +30,23 @@ def updateCost(cell) -> int :
     with open("damage.json", "w") as update:
         json.dump(cost_damage, update)
 
-    print(cost_damage)
+    #print(cost_damage)
     return cost_damage
     
+def resetJSON() -> None :
+    global on_fire
+    global cost_damage
+    on_fire = []
+    cost_damage = 0
+
+    with open("update.json", "w") as update:
+        json.dump(on_fire, update)
+    
+    with open("damage.json", "w") as update:
+        json.dump(cost_damage, update)
 
 def set_up_listeners() -> None :
+    resetJSON()
     sim_events.subscribe("fire_update", newOnFire)
     sim_events.subscribe("fire_update", updateCost)
     sim_events.subscribe("fire_done", fireDone)

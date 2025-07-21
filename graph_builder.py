@@ -51,7 +51,7 @@ def set_weights(grid: list, humidity: float, wind_speed: float, wind_direction: 
             k, l = graph[(i, j)].pop()
 
             #compute neighbour weight
-            neighbour_weight[(k, l)] = grid[k][l].prob_spread(humidity, wind_speed, wind_direction, ((k-i), (l-j)))
+            neighbour_weight[(k, l)] = grid[k][l].prob_spread(humidity, wind_speed, wind_direction, ((l-j), (k-i)))
 
             #If cell hasn't been visited, add it to queue
             if (k, l) not in visited :

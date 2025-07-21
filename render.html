@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
+
     <!-- Welcome Screen -->
     <div id="welcome-screen" class="screen active">
         <div class="welcome-container">
             <div class="welcome-header">
                 <span class="material-icons fire-icon">local_fire_department</span>
-                <h1>Welcome to Your Wildfire Simulation</h1>
+                <h1>Welcome to your Wildfire Simulation</h1>
                 <p>Select a terrain type to begin your simulation</p>
             </div>
             
@@ -35,14 +37,17 @@
                     <span class="material-icons">arrow_back</span>
                 </button>
                 <h2 id="grid-title">Simulation</h2>
+                <div class="server-status server-unknown">🟡 Checking...</div>
             </div>
             
-            <div class="damage-display">
-                <div class="damage-card">
-                    <span class="material-icons">attach_money</span>
-                    <div class="damage-info">
-                        <div class="damage-label">Total Damage</div>
-                        <div class="damage-amount" id="damage-amount">$0</div>
+            <div class="header-right">
+                <div class="damage-display">
+                    <div class="damage-card">
+                        <span class="material-icons">attach_money</span>
+                        <div class="damage-info">
+                            <div class="damage-label">Total Damage</div>
+                            <div class="damage-amount" id="damage-amount">$0</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,6 +60,69 @@
                 </div>
                 <div id="grid-display" class="grid-display">
                     <!-- Grid will be populated by JavaScript -->
+                </div>
+                
+                <!-- Emoji Key -->
+                <div class="emoji-key-card">
+                    <h3>Legend</h3>
+                    <div class="emoji-grid">
+                        <div class="emoji-item">
+                            <span class="emoji">🌲</span>
+                            <span class="label">Forest</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🌱</span>
+                            <span class="label">Grass</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏠</span>
+                            <span class="label">House</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏢</span>
+                            <span class="label">Office</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏭</span>
+                            <span class="label">Warehouse</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏰</span>
+                            <span class="label">Mansion</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏬</span>
+                            <span class="label">Apartment</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏪</span>
+                            <span class="label">Mall</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🚜</span>
+                            <span class="label">Barn</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🛖</span>
+                            <span class="label">Shack</span>
+                        </div>
+                        <div class="emoji-item">
+                            <span class="emoji">🏛️</span>
+                            <span class="label">Infrastructure</span>
+                        </div>
+                        <div class="emoji-item non-burnable">
+                            <span class="emoji">🛣️</span>
+                            <span class="label">Road (Safe)</span>
+                        </div>
+                        <div class="emoji-item non-burnable">
+                            <span class="emoji">💧</span>
+                            <span class="label">Water (Safe)</span>
+                        </div>
+                        <div class="emoji-item fire">
+                            <span class="emoji">🔥</span>
+                            <span class="label">On Fire</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -84,6 +152,27 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="controls-card">
+                    <h3>Simulation Actions</h3>
+                    <div class="action-buttons">
+                        <button id="new-simulation-btn" class="action-button secondary-button">
+                            <span class="material-icons">refresh</span>
+                            New Simulation (Same Grid)
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="controls-card">
+                    <h3>Server Management</h3>
+                    <div class="server-info">
+                        <div class="server-status server-unknown">🟡 Checking...</div>
+                        <button id="shutdown-server-btn" class="action-button danger-button">
+                            <span class="material-icons">power_settings_new</span>
+                            Shutdown Server
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -94,7 +183,7 @@
             <div class="end-header">
                 <span class="material-icons fire-icon completed">local_fire_department</span>
                 <h1>Simulation Complete</h1>
-                <p>The wildfire has finished spreading</p>
+                <p>The wildfire has finished spreading across <span id="final-grid-name"></span></p>
             </div>
             
             <div class="results-card">
@@ -109,10 +198,17 @@
             </div>
 
             <div class="end-actions">
-                <button id="restart-button" class="primary-button">
-                    <span class="material-icons">refresh</span>
-                    Run Another Simulation
+                <button id="restart-button" class="primary-button" style="margin: 0 auto 2rem;">
+                    <span class="material-icons">grid_view</span>
+                    Choose Different Grid
                 </button>
+                <div class="server-actions">
+                    <div class="server-status server-unknown">🟡 Checking...</div>
+                    <button onclick="shutdownServer()" class="danger-button small-button">
+                        <span class="material-icons">power_settings_new</span>
+                        Shutdown Server
+                    </button>
+                </div>
             </div>
         </div>
     </div>
