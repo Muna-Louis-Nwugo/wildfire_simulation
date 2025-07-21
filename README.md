@@ -59,22 +59,20 @@ Where:
 ## System Architecture
 
 ```
-Location Data ---> Config <--- Grid <--- Cell Objects
-                      |
-                      | [Possible Selections]
-                      |
-                      V      [Fire State]
-                    Render <-------------- SimEvents
-                      |                        ^
-                      | [User Preferences]     |
-                      |                        | [Fire State]
-                      V                        |
-                  Fire Spread ------------------
-                   ^     |
-      [Graph Info] |     | [User Preferences]
-                   |     |
-                   |     V
-                Graph Builder
+    -----> Render <------------
+    |                         |
+    |                         |
+  Utils                       |
+    ^                         |
+    |                         |---- Grids <--Cell Objects
+    |                         |
+Sim_Events                    |
+    ^                         |
+    |                         |
+    --- Fire_Spread <----------
+          |    ^
+          V    |
+        Graph_Builder
 ```
 
 ### Config, Location Data, Grid and Cell Objects [The Helpers]
