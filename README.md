@@ -86,7 +86,7 @@ Sim_Events      |              |
   - Grids stores every grid configuration supported by the system 
   - Cell objects contain all cell-specific data (including equations needed to compute probability), this does not include fire-state, this was necessary for proper separation of concers
 
-### Render [the Starter Module]
+### Render [The Starter Module]
 - Visual representation of the grid
 - Allows users to select a configuration and sends that configuration to Fire Spread through an HTTP Post request
 - Polls updates from specified JSON files to glean data from the backend and display it to the user
@@ -103,7 +103,7 @@ Sim_Events      |              |
 ### Sim_Events [The Event Broker]
 - Ferries fire state data from Fire Spread to the Utils Module
 
-### Utils [the Utility Module]
+### Utils [The Utility Module]
 - updates JSON files with appropriate fire spread data to be read by the render
 
 
