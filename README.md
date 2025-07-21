@@ -21,7 +21,7 @@ python -m http.server 6600
 ```
 Open Browser:
 ```
-http://localhost:8000/render.html
+http://localhost:6600/render.html
 ```
 
 ### How to Use
