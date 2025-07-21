@@ -3,7 +3,7 @@
 
 Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desire to help people and governments better prepare for catastrophes that may occur in their areas. Originally planned to be a tool to help people see the likelihood of a wildfire occurring in their area, this prototype intends to give citizens, governments, and insurance agencies an idea of how much damage a wildfire could cause to real-estate if started in certain regions of the United States.
 
-###### Disclaimer: My main focus during this project was the backend and the general system architecture. Artificial Intelligence was leveraged to build the front-end, though all front-end back-end integration was designed by myself.
+###### Disclaimer: My primary focus in this project was on backend development and overall system architecture. While I used AI assistance to generate parts of the front-end, I designed and implemented all backend–frontend integration myself.
 
 ---
 ## Start and Run Simulation
