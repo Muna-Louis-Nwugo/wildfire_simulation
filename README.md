@@ -1,7 +1,9 @@
 # 🔥 Wildfire Simulation
 ##### A 2-D spatial simulation engine demonstrating how wildfires spread across terrain and assess damage to infrastructure using custom graph algorithms and probabilistic modelling.
 
-Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desire to help people and governments better prepare for catastrophes that may occur in their areas. Originally planned to be a tool to help people see the likelihood of a wildfire occurring in their area, this crude tool intends to give citizens, governments and insurance agencies an idea of how much damage a wildfire could cause if started in some regions of the United States.
+Inspired by the 2025 Los Angeles Wildfires, this project was born out of a desire to help people and governments better prepare for catastrophes that may occur in their areas. Originally planned to be a tool to help people see the likelihood of a wildfire occurring in their area, this protype intends to give citizens, governments, and insurance agencies an idea of how much damage a wildfire could cause to real-estate if started in certain regions of the United States.
+
+###### Disclaimer: My main focus during this project was the backend and the general system architecture. Artificial Intelligence was leveraged to build the front-end, though all front-end back-end integration was designed by myself.
 
 ---
 ## Start and Run Simulation
@@ -14,26 +16,26 @@ cd wildfire_simulation
 python fire_spread.py
 ```
 
-Terminal 2 - Start Frontend:
+Terminal 2 - Start Front-end:
 ```
 cd wildfire_simulation
 python -m http.server 6600
 ```
-Open Browser:
+Open Browser (Note, use chrome for full functionality):
 ```
 http://localhost:6600/render.html
 ```
 
 ### How to Use
-Select a terrain type from the welcome screen (Urban, Suburban, Rural, etc.)
-Adjust simulation parameters (humidity, wind speed, wind direction)
-Click any cell on the grid to start the fire
-Watch the fire spread in real-time with damage cost tracking
-View final results when simulation completes
+1. Select a terrain type from the welcome screen (Urban, Suburban, Rural, etc.)
+2. Adjust simulation parameters (humidity, wind speed, wind direction)
+3. Click any cell on the grid to start the fire
+4. Watch the fire spread in real-time with damage cost tracking
+5. View final damage cost estimation when the simulation completes
 
 ---
 ## Overview
-This Wildfire Simulation aims to realistically model the spread of a fire across diverse terrains from city to rural, eventually aiming to simulate the cost of damage to infrastructure that wildfires cause under specific conditions. 
+This Wildfire Simulation aims to realistically model the spread of a fire across diverse terrains from city to rural with the main purpose of simulating the cost of damage to infrastructure that wildfires cause under specific conditions. 
 
 It works by:
 - using a grid layered on top of 2 separate custom BFS traversals:
@@ -55,6 +57,9 @@ Where:
   - _Wind Speed_: Speed of the wind in meters per second
   - _Spread Direction_: Angle between wind direction and direction the program is considering spreading into
 
+The damage cost equation was only applied to buildings for simplicity's sake, but is as follows
+### Total Cost = (Cost per Square Foot) * (Floor Area) * (Num Floors)
+
 ---
 ## System Architecture
 
@@ -75,54 +80,61 @@ Sim_Events      |              |
             Graph_Builder
 ```
 
-### Config, Location Data, Grid and Cell Objects [The Helpers]
+### Grids and Cell Objects [The Data Module]
 - Information used to load maps and weather parameters
-  - Location Data loaded off of a weather API (not decided yet)
-  - Grid stores every grid configuration supported by the system (plan on letting the user create custom grid configurations)
-  - Cell objects contain all cell-specific data (including equations needed to compute probability)
-  -   Crucially, cells are not aware of their own fire state
+  - Grids stores every grid configuration supported by the system 
+  - Cell objects contain all cell-specific data (including equations needed to compute probability), this does not include fire-state, this was necessary for proper separation of concers
 
-### Render [Starting Point]
+### Render [the Starter Module]
 - Visual representation of the grid
-- Allows users to select a configuration and sends that configuration to Fire Spread
-- Observes SimEvents to be notified when the fire state is updated
+- Allows users to select a configuration and sends that configuration to Fire Spread through an HTTP Post request
+- Polls updates from specified JSON files to glean data from the backend and display it to the user
 
 ### Fire Spread [The Brains]
+- Starts and maintains HTTP server to receive user input information from Render
 - Sends user preferences to Graph Builder, receives a graph
 - Performs a probabilistic spread of the fire on the graph, sending updates to sim events every time a new fire is lit
+- Posts information about fire state to Sim_Events
 
-### Graph Builder [The Utility Module]
+### Graph Builder [The Helper]
 - Takes a grid and returns a graph that fire spread can operate on
 
-### SimEvents [The Event Broker]
-- Ferries fire state data from Fire Spread to Render
+### Sim_Events [The Event Broker]
+- Ferries fire state data from Fire Spread to the Utils Module
+
+### Utils [the Utility Module]
+- updates JSON files with appropriate fire spread data to be read by the render
+
+
+
+### Communication Layer
+Since this project required communication between web-based JavaScript and machine-executable Python, A custom communication layer was needed to circumvent the browser's sanboxing and JavaScript's incompatabilities with Python. My solution was to use an HTTP server for Render -> Fire Spread communication, but then to have Render read data from JSON files to track fire updates. This is mainly because I had already designed my system around using JSON files to communicate before I realized that the browser's sandboxing prevented browser-based programs from writing to files on the machine. After setting up the HTTP server, I decided that in order to maintain separation of concerns (and also because I had already written this part of the system) I was going to have the front-end simply read from JSON files that the Utils module writes to.
 
 ---
 ## Technologies Used
 1. Vanilla Python (all methods developed solo)
-2. Modular, Event-Driven Architecture
-3. Object-Oriented Design
-4. Observer Pattern
-5. Stochastic Modelling
-6. Two-Stage Algorithm Design (Graph-building + simulation)
-7. Graph-Based Spatial Algorithms
-8. Breadth First Search (Customised for this use case)
+2. JavaScript (Rendering)
+3. Modular, Event-Driven Architecture
+4. Object-Oriented Design
+5. Observer Pattern
+6. Stochastic Modelling
+7. Two-Stage Algorithm Design (Graph-building + simulation)
+8. Graph-Based Spatial Algorithms
+9. Breadth First Search (Customised for this use case)
+10. Hypertext Transfer Protocol
+11. JSON Handling
+12. Full Stack Development
 
 ### Planned
 1. API integration (Real-time weather data)
-2. JavaScript (Rendering)
 
 ---
 ## Project Status
 ### Complete
 - Full Fire Spread Simulation Engine
 - Elementary Cell Object Configurations (e.g. forest, grass, water, road)
+- Rendering
+- Damage Cost Estimation Engine
 
 ### In Progress
-- Rendering
 - API Integration
-- Advanced Cell Object Configurations (e.g. high-rise, home, shack)
-  - require more sophisticated probability equations
-
-### Planned
-- Damage Cost Estimation Engine
