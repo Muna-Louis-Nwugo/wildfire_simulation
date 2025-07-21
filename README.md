@@ -59,20 +59,20 @@ Where:
 ## System Architecture
 
 ```
-    -----> Render <------------
-    |                         |
-    |                         |
-  Utils                       |
-    ^                         |
-    |                         |---- Grids <--Cell Objects
-    |                         |
-Sim_Events                    |
-    ^                         |
-    |                         |
-    --- Fire_Spread <----------
-          |    ^
-          V    |
-        Graph_Builder
+    --------> Render <---------
+    |           |              |
+    |           |              |
+  Utils         |              |
+    ^           |              |
+    |           |              |---- Grids <--Cell Objects
+    |           |              |
+Sim_Events      |              |
+    ^           |              |
+    |           V              |
+    ------- Fire_Spread <------
+              |    ^
+              V    |
+            Graph_Builder
 ```
 
 ### Config, Location Data, Grid and Cell Objects [The Helpers]
