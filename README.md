@@ -124,7 +124,6 @@ Since this project required communication between web-based JavaScript and machi
 9. Breadth First Search (Customised for this use case)
 10. Hypertext Transfer Protocol
 11. JSON Handling
-12. Full Stack Development
 
 ### Planned
 1. API integration (Real-time weather data)
