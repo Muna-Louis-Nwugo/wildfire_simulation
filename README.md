@@ -34,6 +34,9 @@ http://localhost:6600/render.html
 4. Watch the fire spread in real-time with damage cost tracking
 5. View final damage cost estimation when the simulation completes
 
+<img width="2303" height="1213" alt="Screenshot 2025-07-21 100240" src="https://github.com/user-attachments/assets/dae8d214-f3cc-406a-ace7-3b2081f597fb" />
+
+
 ---
 ## Overview
 This Wildfire Simulation aims to realistically model the spread of a fire across diverse terrains from city to rural with the main purpose of simulating the cost of damage to infrastructure that wildfires cause under specific conditions. 
