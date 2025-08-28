@@ -3,7 +3,7 @@
 
 Inspired by the 2025 Los Angeles wildfires, this project was born from a desire to help people and governments better prepare for potential catastrophes. Originally planned as a tool to assess wildfire risk by region, this prototype now aims to provide citizens, local governments, and insurance agencies with insight into the potential damage a wildfire could cause to real estate in various U.S. regions.
 
-###### Disclaimer: This project emphasizes custom backend architecture and system design, including a novel event-driven communication layer between Python simulation engine and web interface. Frontend components were rapidly prototyped using modern development tools to accelerate time-to-deployment while maintaining focus on core simulation algorithms and infrastructure damage modeling.
+###### Disclaimer: This project emphasizes custom backend architecture and system design, including a novel event-driven communication layer between Python simulation engine and web interface. Frontend components and fire science equations were rapidly prototyped using modern development tools to accelerate time-to-deployment while maintaining focus on core simulation algorithms and infrastructure damage modeling.
 
 ---
 ## Start and Run Simulation
