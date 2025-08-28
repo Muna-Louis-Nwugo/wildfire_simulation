@@ -60,6 +60,8 @@ Where:
   - _wind coefficient_: Determines how strongly wind influences spread (set to 0.35 for a more natural variation in spread)
   - _Wind Speed_: Speed of the wind in meters per second
   - _Spread Direction_: Angle between wind direction and direction the program is considering spreading into
+###### Note: Fire spread probability equation developed with assistance from ChatGPT using Deep Resaearch for rapid prototyping and validation against fire science principles.
+
 
 The damage cost equation was only applied to buildings for simplicity's sake, but is as follows
 ### Total Cost = (Cost per Square Foot) * (Floor Area) * (Num Floors)
